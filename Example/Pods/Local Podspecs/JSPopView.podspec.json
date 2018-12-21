@@ -1,0 +1,22 @@
+{
+  "name": "JSPopView",
+  "version": "0.1.0",
+  "summary": "A short description of JSPopView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lmg4819/JSPopView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lmg4819": "luomengge@cheyipai.com"
+  },
+  "source": {
+    "git": "https://github.com/lmg4819/JSPopView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JSPopView/**/*.{h,m}"
+}

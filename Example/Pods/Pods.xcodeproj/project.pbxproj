@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		039DC1ADE4FCF9BC27ED0BC85D419931 /* Pods-JSPopView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3600A9B785F0469541800AD9D5A1DBF /* Pods-JSPopView_Example-dummy.m */; };
+		264795B1D106B492B26A0BBD187FF1EC /* Pods-JSPopView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3EADCE2658222C4BF4B3DBB62499C68 /* Pods-JSPopView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31DE31730D4F952A98FAF78777004D62 /* JSPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A746EC22F12503A81C5C8804C4530835 /* JSPopView.m */; };
+		3B671D7E2F10D7672A8C7B24DC6BBD9E /* Pods-JSPopView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3FE4206BF3E5D8A6B3EB5EA2BF22C5 /* Pods-JSPopView_Tests-dummy.m */; };
+		407E884222C56C3715257CE56D89FF85 /* JSPopAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E58F9E3568B57967129DECDFF9B5C3AD /* JSPopAnimationTool.m */; };
+		53853E94399687391DCC92864A90711C /* JSPopView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAB10EC705ABC89B5557F82BD9446 /* JSPopView-dummy.m */; };
+		6A8B9DC912D3D67A86060E9B6D42E5AD /* JSPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 722437C96E6C28632BF6A4D7675D41DF /* JSPopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E1F08374C8DA588FB65C27187997E4D /* JSPopView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1C700239C58C35BCA69EC25BBD0C69 /* JSPopView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71E56B2EBC1AF79C32279E650E44B8DB /* JSPopAnimationTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC3214A0BCFBDC5AAAF155EC380588C /* JSPopAnimationTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92A50F323DC215AFB6BFEC3D89F6A2CA /* Pods-JSPopView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 664C053838E4A5944D550C616D3AB42C /* Pods-JSPopView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A6ADC51D95996FA498D519056F686A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		E95F5BC6DFA1832787349CAF4D551E7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F17C57B93E4BA258041A3B507AF639E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		579BB89DD262C8C3991A81B13359AECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 188C5B4175340196D8E8B4E5F719BF35;
+			remoteInfo = JSPopView;
+		};
+		B2263429B4BA3290048B8F9C75319129 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15D5BF22183682B248BB595A8806B3E2;
+			remoteInfo = "Pods-JSPopView_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C049031B739CCD44473395BEFEB95D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1771E2FFC3DB242344FD0EFE3AFC4645 /* Pods_JSPopView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSPopView_Example.framework; path = "Pods-JSPopView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22813D0A5957AD4B32CBF31DD297522F /* Pods-JSPopView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSPopView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2410EFC23C71A7756F828542004C9C6C /* JSPopView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSPopView.modulemap; sourceTree = "<group>"; };
+		283ED96333B871EF43C4A3FB408DF3A7 /* Pods-JSPopView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSPopView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		2A3FE4206BF3E5D8A6B3EB5EA2BF22C5 /* Pods-JSPopView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSPopView_Tests-dummy.m"; sourceTree = "<group>"; };
+		2E529CB5F33CC3AFCCF3A19863B44FEC /* Pods-JSPopView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSPopView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3194F733449A4803964EE9DF610DEF46 /* Pods-JSPopView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSPopView_Tests-resources.sh"; sourceTree = "<group>"; };
+		379B6149C289F56FD6298E4F40BB41A3 /* Pods-JSPopView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSPopView_Example.modulemap"; sourceTree = "<group>"; };
+		548A18CF7154DC05BD7134FCF545E0AB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55428691E9CA34696BFFDD703970AF47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		60DDFE48AAD1350DE1D9B258686DF959 /* JSPopView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSPopView-prefix.pch"; sourceTree = "<group>"; };
+		664C053838E4A5944D550C616D3AB42C /* Pods-JSPopView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSPopView_Example-umbrella.h"; sourceTree = "<group>"; };
+		69B95738F91E9112D7205F8B3BB9D502 /* Pods-JSPopView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSPopView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		70200418942AE5F768D239BA34F97D6C /* Pods-JSPopView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSPopView_Tests.modulemap"; sourceTree = "<group>"; };
+		722437C96E6C28632BF6A4D7675D41DF /* JSPopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSPopView.h; path = JSPopView/JSPopView.h; sourceTree = "<group>"; };
+		73141947E013EA4A0A214111E42A3870 /* Pods-JSPopView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSPopView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		83C09FA784931FA5656D8FE428C3EED8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8B1C700239C58C35BCA69EC25BBD0C69 /* JSPopView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSPopView-umbrella.h"; sourceTree = "<group>"; };
+		912355A5377C198F71DF14C5F210E189 /* Pods-JSPopView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSPopView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98CEED634876C8009E445A3D246AFE1D /* Pods-JSPopView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSPopView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9DC3214A0BCFBDC5AAAF155EC380588C /* JSPopAnimationTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSPopAnimationTool.h; path = JSPopView/JSPopAnimationTool.h; sourceTree = "<group>"; };
+		A746EC22F12503A81C5C8804C4530835 /* JSPopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSPopView.m; path = JSPopView/JSPopView.m; sourceTree = "<group>"; };
+		AD5FCABD98841D0BEB95B25CC800A9CE /* Pods-JSPopView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSPopView_Example-resources.sh"; sourceTree = "<group>"; };
+		BA25E91C51A520F0E7E2B7EC83E894A7 /* Pods-JSPopView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSPopView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF2970A26449537A9884A1B937C7AF94 /* JSPopView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JSPopView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0BAFE5BB0996D68911A70F59B29FC90 /* JSPopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSPopView.framework; path = JSPopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D262016D36E67976657C9399A38DFA8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3EADCE2658222C4BF4B3DBB62499C68 /* Pods-JSPopView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSPopView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		DD42F1B4EFE23704F1C533D45F6357A9 /* Pods_JSPopView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSPopView_Tests.framework; path = "Pods-JSPopView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E58F9E3568B57967129DECDFF9B5C3AD /* JSPopAnimationTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSPopAnimationTool.m; path = JSPopView/JSPopAnimationTool.m; sourceTree = "<group>"; };
+		EB364E3364D3E2C63430C0B2AB9E1DB0 /* JSPopView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSPopView.xcconfig; sourceTree = "<group>"; };
+		EC575F20077EFF5484A894C8B5775096 /* Pods-JSPopView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSPopView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F1F7F701206E5EDFFF29453F79584B1E /* Pods-JSPopView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSPopView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3600A9B785F0469541800AD9D5A1DBF /* Pods-JSPopView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSPopView_Example-dummy.m"; sourceTree = "<group>"; };
+		F63FAB10EC705ABC89B5557F82BD9446 /* JSPopView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSPopView-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6FB7D8183521AF2BF2AAEF15D61FCB39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95F5BC6DFA1832787349CAF4D551E7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4EE3A44420CAFF311832336664015BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6ADC51D95996FA498D519056F686A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC0F50A5703D33801F8CBE391FC0B78B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17C57B93E4BA258041A3B507AF639E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0761179A0028596DB551D5B831470933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0BAFE5BB0996D68911A70F59B29FC90 /* JSPopView.framework */,
+				1771E2FFC3DB242344FD0EFE3AFC4645 /* Pods_JSPopView_Example.framework */,
+				DD42F1B4EFE23704F1C533D45F6357A9 /* Pods_JSPopView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1330EA715C5DE78C0CAB1510067220AF /* Pods-JSPopView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				548A18CF7154DC05BD7134FCF545E0AB /* Info.plist */,
+				379B6149C289F56FD6298E4F40BB41A3 /* Pods-JSPopView_Example.modulemap */,
+				BA25E91C51A520F0E7E2B7EC83E894A7 /* Pods-JSPopView_Example-acknowledgements.markdown */,
+				69B95738F91E9112D7205F8B3BB9D502 /* Pods-JSPopView_Example-acknowledgements.plist */,
+				F3600A9B785F0469541800AD9D5A1DBF /* Pods-JSPopView_Example-dummy.m */,
+				98CEED634876C8009E445A3D246AFE1D /* Pods-JSPopView_Example-frameworks.sh */,
+				AD5FCABD98841D0BEB95B25CC800A9CE /* Pods-JSPopView_Example-resources.sh */,
+				664C053838E4A5944D550C616D3AB42C /* Pods-JSPopView_Example-umbrella.h */,
+				EC575F20077EFF5484A894C8B5775096 /* Pods-JSPopView_Example.debug.xcconfig */,
+				22813D0A5957AD4B32CBF31DD297522F /* Pods-JSPopView_Example.release.xcconfig */,
+			);
+			name = "Pods-JSPopView_Example";
+			path = "Target Support Files/Pods-JSPopView_Example";
+			sourceTree = "<group>";
+		};
+		25909BF16A6307C794A8BC21D737DC7F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1330EA715C5DE78C0CAB1510067220AF /* Pods-JSPopView_Example */,
+				8C5B903A8D7A8B28C788ADFFDDE4A541 /* Pods-JSPopView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7360CF82CADA34F7A61C0506765EAEFA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF483B3D6E40588103C8CF27DC44400C /* JSPopView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7360CF82CADA34F7A61C0506765EAEFA /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0761179A0028596DB551D5B831470933 /* Products */,
+				25909BF16A6307C794A8BC21D737DC7F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F7F52E1D18FDCA8689D3CC242B65442 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BF2970A26449537A9884A1B937C7AF94 /* JSPopView.podspec */,
+				55428691E9CA34696BFFDD703970AF47 /* LICENSE */,
+				83C09FA784931FA5656D8FE428C3EED8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8C5B903A8D7A8B28C788ADFFDDE4A541 /* Pods-JSPopView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D262016D36E67976657C9399A38DFA8F /* Info.plist */,
+				70200418942AE5F768D239BA34F97D6C /* Pods-JSPopView_Tests.modulemap */,
+				73141947E013EA4A0A214111E42A3870 /* Pods-JSPopView_Tests-acknowledgements.markdown */,
+				F1F7F701206E5EDFFF29453F79584B1E /* Pods-JSPopView_Tests-acknowledgements.plist */,
+				2A3FE4206BF3E5D8A6B3EB5EA2BF22C5 /* Pods-JSPopView_Tests-dummy.m */,
+				283ED96333B871EF43C4A3FB408DF3A7 /* Pods-JSPopView_Tests-frameworks.sh */,
+				3194F733449A4803964EE9DF610DEF46 /* Pods-JSPopView_Tests-resources.sh */,
+				D3EADCE2658222C4BF4B3DBB62499C68 /* Pods-JSPopView_Tests-umbrella.h */,
+				912355A5377C198F71DF14C5F210E189 /* Pods-JSPopView_Tests.debug.xcconfig */,
+				2E529CB5F33CC3AFCCF3A19863B44FEC /* Pods-JSPopView_Tests.release.xcconfig */,
+			);
+			name = "Pods-JSPopView_Tests";
+			path = "Target Support Files/Pods-JSPopView_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF483B3D6E40588103C8CF27DC44400C /* JSPopView */ = {
+			isa = PBXGroup;
+			children = (
+				9DC3214A0BCFBDC5AAAF155EC380588C /* JSPopAnimationTool.h */,
+				E58F9E3568B57967129DECDFF9B5C3AD /* JSPopAnimationTool.m */,
+				722437C96E6C28632BF6A4D7675D41DF /* JSPopView.h */,
+				A746EC22F12503A81C5C8804C4530835 /* JSPopView.m */,
+				7F7F52E1D18FDCA8689D3CC242B65442 /* Pod */,
+				DA49DE235A8BF5D4E2E268E7827D6EE9 /* Support Files */,
+			);
+			name = JSPopView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DA49DE235A8BF5D4E2E268E7827D6EE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C049031B739CCD44473395BEFEB95D0 /* Info.plist */,
+				2410EFC23C71A7756F828542004C9C6C /* JSPopView.modulemap */,
+				EB364E3364D3E2C63430C0B2AB9E1DB0 /* JSPopView.xcconfig */,
+				F63FAB10EC705ABC89B5557F82BD9446 /* JSPopView-dummy.m */,
+				60DDFE48AAD1350DE1D9B258686DF959 /* JSPopView-prefix.pch */,
+				8B1C700239C58C35BCA69EC25BBD0C69 /* JSPopView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JSPopView";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3A478B16929AED732691FBA36D309722 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71E56B2EBC1AF79C32279E650E44B8DB /* JSPopAnimationTool.h in Headers */,
+				6E1F08374C8DA588FB65C27187997E4D /* JSPopView-umbrella.h in Headers */,
+				6A8B9DC912D3D67A86060E9B6D42E5AD /* JSPopView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B701F72CF839E4B0BE94779E7E876DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				264795B1D106B492B26A0BBD187FF1EC /* Pods-JSPopView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7D2A5E09CF9DF2CD154A7A0FC8BD778 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92A50F323DC215AFB6BFEC3D89F6A2CA /* Pods-JSPopView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15D5BF22183682B248BB595A8806B3E2 /* Pods-JSPopView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B410DAB862A506FFC928E5FAB1A706D5 /* Build configuration list for PBXNativeTarget "Pods-JSPopView_Example" */;
+			buildPhases = (
+				ABC88157F7582FFA4901802DD9D27146 /* Sources */,
+				6FB7D8183521AF2BF2AAEF15D61FCB39 /* Frameworks */,
+				C7D2A5E09CF9DF2CD154A7A0FC8BD778 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3500985956913BEF99295EBF1353277F /* PBXTargetDependency */,
+			);
+			name = "Pods-JSPopView_Example";
+			productName = "Pods-JSPopView_Example";
+			productReference = 1771E2FFC3DB242344FD0EFE3AFC4645 /* Pods_JSPopView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		188C5B4175340196D8E8B4E5F719BF35 /* JSPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78842D7883124E7061425187DA773570 /* Build configuration list for PBXNativeTarget "JSPopView" */;
+			buildPhases = (
+				0495880F9C1102A68F8A93330A741420 /* Sources */,
+				B4EE3A44420CAFF311832336664015BC /* Frameworks */,
+				3A478B16929AED732691FBA36D309722 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSPopView;
+			productName = JSPopView;
+			productReference = C0BAFE5BB0996D68911A70F59B29FC90 /* JSPopView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65DE2BEBA03AD4F95BA66F45DA2D1822 /* Pods-JSPopView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C37B7CB866B1D556F33ADDFF77DB89E9 /* Build configuration list for PBXNativeTarget "Pods-JSPopView_Tests" */;
+			buildPhases = (
+				5791B17F3A32D2D0DE32778D0D71F69A /* Sources */,
+				BC0F50A5703D33801F8CBE391FC0B78B /* Frameworks */,
+				5B701F72CF839E4B0BE94779E7E876DA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F06F0C71207BA294A10124CC8E27B66 /* PBXTargetDependency */,
+			);
+			name = "Pods-JSPopView_Tests";
+			productName = "Pods-JSPopView_Tests";
+			productReference = DD42F1B4EFE23704F1C533D45F6357A9 /* Pods_JSPopView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0761179A0028596DB551D5B831470933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				188C5B4175340196D8E8B4E5F719BF35 /* JSPopView */,
+				15D5BF22183682B248BB595A8806B3E2 /* Pods-JSPopView_Example */,
+				65DE2BEBA03AD4F95BA66F45DA2D1822 /* Pods-JSPopView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0495880F9C1102A68F8A93330A741420 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				407E884222C56C3715257CE56D89FF85 /* JSPopAnimationTool.m in Sources */,
+				53853E94399687391DCC92864A90711C /* JSPopView-dummy.m in Sources */,
+				31DE31730D4F952A98FAF78777004D62 /* JSPopView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5791B17F3A32D2D0DE32778D0D71F69A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B671D7E2F10D7672A8C7B24DC6BBD9E /* Pods-JSPopView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABC88157F7582FFA4901802DD9D27146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				039DC1ADE4FCF9BC27ED0BC85D419931 /* Pods-JSPopView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3500985956913BEF99295EBF1353277F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSPopView;
+			target = 188C5B4175340196D8E8B4E5F719BF35 /* JSPopView */;
+			targetProxy = 579BB89DD262C8C3991A81B13359AECB /* PBXContainerItemProxy */;
+		};
+		5F06F0C71207BA294A10124CC8E27B66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JSPopView_Example";
+			target = 15D5BF22183682B248BB595A8806B3E2 /* Pods-JSPopView_Example */;
+			targetProxy = B2263429B4BA3290048B8F9C75319129 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		046BD95862A6BEAFAF4321D2280C09B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC575F20077EFF5484A894C8B5775096 /* Pods-JSPopView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSPopView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSPopView_Example/Pods-JSPopView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4667ADB10A77BB68BBFB55137CED6FE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB364E3364D3E2C63430C0B2AB9E1DB0 /* JSPopView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSPopView/JSPopView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSPopView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSPopView/JSPopView.modulemap";
+				PRODUCT_MODULE_NAME = JSPopView;
+				PRODUCT_NAME = JSPopView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4D800BEB26160082FD5E23D1651FB9DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22813D0A5957AD4B32CBF31DD297522F /* Pods-JSPopView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSPopView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSPopView_Example/Pods-JSPopView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		795D7CC7F0726E1451CDABE6C5588485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912355A5377C198F71DF14C5F210E189 /* Pods-JSPopView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSPopView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSPopView_Tests/Pods-JSPopView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7CA40DAE06F530DEEFD69DEF4DA71B11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB364E3364D3E2C63430C0B2AB9E1DB0 /* JSPopView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JSPopView/JSPopView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JSPopView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JSPopView/JSPopView.modulemap";
+				PRODUCT_MODULE_NAME = JSPopView;
+				PRODUCT_NAME = JSPopView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E796FCB0FE2F379E408E9D7BE50C0419 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E529CB5F33CC3AFCCF3A19863B44FEC /* Pods-JSPopView_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSPopView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSPopView_Tests/Pods-JSPopView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78842D7883124E7061425187DA773570 /* Build configuration list for PBXNativeTarget "JSPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4667ADB10A77BB68BBFB55137CED6FE4 /* Debug */,
+				7CA40DAE06F530DEEFD69DEF4DA71B11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B410DAB862A506FFC928E5FAB1A706D5 /* Build configuration list for PBXNativeTarget "Pods-JSPopView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046BD95862A6BEAFAF4321D2280C09B4 /* Debug */,
+				4D800BEB26160082FD5E23D1651FB9DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C37B7CB866B1D556F33ADDFF77DB89E9 /* Build configuration list for PBXNativeTarget "Pods-JSPopView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				795D7CC7F0726E1451CDABE6C5588485 /* Debug */,
+				E796FCB0FE2F379E408E9D7BE50C0419 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

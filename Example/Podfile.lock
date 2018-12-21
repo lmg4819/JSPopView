@@ -1,0 +1,16 @@
+PODS:
+  - JSPopView (0.1.0)
+
+DEPENDENCIES:
+  - JSPopView (from `../`)
+
+EXTERNAL SOURCES:
+  JSPopView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JSPopView: cfba73ce55ec0b4f6a25b404fb7d47b997fd4d02
+
+PODFILE CHECKSUM: dc88d24ce9eed20d4cdeddd77139ecd7d4f1e6e4
+
+COCOAPODS: 1.5.3
