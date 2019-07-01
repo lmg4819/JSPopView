@@ -23,7 +23,7 @@
     
     
     UIButton *sender = [[UIButton alloc]init];
-    sender.frame = CGRectMake(0, 0, 200, 44);
+    sender.frame = CGRectMake(100, 0, 200, 44);
     [sender setTitle:@"弹框" forState:UIControlStateNormal];
     sender.backgroundColor = [UIColor yellowColor];
     sender.center = self.view.center;
