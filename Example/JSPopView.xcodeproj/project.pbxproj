@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		586BB99722CA029000CA166F /* JSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BB99622CA029000CA166F /* JSDetailViewController.m */; };
 		586BB99A22CA035E00CA166F /* JSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BB99922CA035E00CA166F /* JSSecondViewController.m */; };
+		586BB9A222CA160600CA166F /* CustomIOSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BB9A022CA160600CA166F /* CustomIOSAlertView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -47,6 +48,8 @@
 		586BB99622CA029000CA166F /* JSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDetailViewController.m; sourceTree = "<group>"; };
 		586BB99822CA035E00CA166F /* JSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSSecondViewController.h; sourceTree = "<group>"; };
 		586BB99922CA035E00CA166F /* JSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSSecondViewController.m; sourceTree = "<group>"; };
+		586BB9A022CA160600CA166F /* CustomIOSAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomIOSAlertView.m; sourceTree = "<group>"; };
+		586BB9A122CA160600CA166F /* CustomIOSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOSAlertView.h; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JSPopView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPopView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -101,6 +104,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		586BB99F22CA15F000CA166F /* CustomIOSAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				586BB9A122CA160600CA166F /* CustomIOSAlertView.h */,
+				586BB9A022CA160600CA166F /* CustomIOSAlertView.m */,
+			);
+			name = CustomIOSAlertView;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -138,6 +150,7 @@
 		6003F593195388D20070C39A /* Example for JSPopView */ = {
 			isa = PBXGroup;
 			children = (
+				586BB99F22CA15F000CA166F /* CustomIOSAlertView */,
 				586BB99522CA029000CA166F /* JSDetailViewController.h */,
 				586BB99622CA029000CA166F /* JSDetailViewController.m */,
 				6003F59C195388D20070C39A /* JSAppDelegate.h */,
@@ -368,6 +381,7 @@
 			files = (
 				6003F59E195388D20070C39A /* JSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JSViewController.m in Sources */,
+				586BB9A222CA160600CA166F /* CustomIOSAlertView.m in Sources */,
 				586BB99722CA029000CA166F /* JSDetailViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				586BB99A22CA035E00CA166F /* JSSecondViewController.m in Sources */,
