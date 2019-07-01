@@ -1,8 +1,14 @@
 PODS:
   - JSPopView (0.1.0)
+  - KVOController (1.2.0)
 
 DEPENDENCIES:
   - JSPopView (from `../`)
+  - KVOController (~> 1.2.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KVOController
 
 EXTERNAL SOURCES:
   JSPopView:
@@ -10,7 +16,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   JSPopView: cfba73ce55ec0b4f6a25b404fb7d47b997fd4d02
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
 
-PODFILE CHECKSUM: dc88d24ce9eed20d4cdeddd77139ecd7d4f1e6e4
+PODFILE CHECKSUM: 87f2741872c7e46cae3de7e056b7330924b5d6b2
 
 COCOAPODS: 1.5.3

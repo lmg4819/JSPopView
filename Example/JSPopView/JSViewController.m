@@ -9,6 +9,7 @@
 #import "JSViewController.h"
 #import <JSPopView/JSPopView.h>
 #import "JSSecondViewController.h"
+#import <KVOController/KVOController.h>
 
 
 @interface JSViewController ()

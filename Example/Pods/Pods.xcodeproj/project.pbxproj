@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		039DC1ADE4FCF9BC27ED0BC85D419931 /* Pods-JSPopView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3600A9B785F0469541800AD9D5A1DBF /* Pods-JSPopView_Example-dummy.m */; };
+		094ED1211626E44658BCE20A562008C3 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = CB9DEFB0F0EE441F9EE90AA1000F9D1E /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16A56F7A6E2AFE504DEC2C768660B409 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD55E4BEC75CFE1051E2ECE93F622F1B /* KVOController-dummy.m */; };
+		1A61C910DACFCF8EB29281ED3DA0B81A /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = E23A75CD7D65F6D9CD9E19B4B86B55C2 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		262D5CD908F60B334DC828A61B13F7C3 /* Pods-JSPopView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 664C053838E4A5944D550C616D3AB42C /* Pods-JSPopView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		264795B1D106B492B26A0BBD187FF1EC /* Pods-JSPopView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3EADCE2658222C4BF4B3DBB62499C68 /* Pods-JSPopView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B63F44121AE4097D059D66C28A61B24 /* Pods-JSPopView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3600A9B785F0469541800AD9D5A1DBF /* Pods-JSPopView_Example-dummy.m */; };
 		31DE31730D4F952A98FAF78777004D62 /* JSPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A746EC22F12503A81C5C8804C4530835 /* JSPopView.m */; };
 		3B671D7E2F10D7672A8C7B24DC6BBD9E /* Pods-JSPopView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3FE4206BF3E5D8A6B3EB5EA2BF22C5 /* Pods-JSPopView_Tests-dummy.m */; };
 		407E884222C56C3715257CE56D89FF85 /* JSPopAnimationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E58F9E3568B57967129DECDFF9B5C3AD /* JSPopAnimationTool.m */; };
 		53853E94399687391DCC92864A90711C /* JSPopView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F63FAB10EC705ABC89B5557F82BD9446 /* JSPopView-dummy.m */; };
+		5E3E20ED69923AF65ED92CE43DC97BFB /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBF8D2B507DD62FAD8363D2D7E570B7 /* NSObject+FBKVOController.m */; };
+		5EF4005FEC65BC997748AB46617ADD3C /* KVOController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5E2B44EAE9B73B6CCEA07C72DB07D59 /* KVOController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6A8B9DC912D3D67A86060E9B6D42E5AD /* JSPopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 722437C96E6C28632BF6A4D7675D41DF /* JSPopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E1F08374C8DA588FB65C27187997E4D /* JSPopView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B1C700239C58C35BCA69EC25BBD0C69 /* JSPopView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		71E56B2EBC1AF79C32279E650E44B8DB /* JSPopAnimationTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC3214A0BCFBDC5AAAF155EC380588C /* JSPopAnimationTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		92A50F323DC215AFB6BFEC3D89F6A2CA /* Pods-JSPopView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 664C053838E4A5944D550C616D3AB42C /* Pods-JSPopView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75DDA6C4B1C2D744D9CD65A5ED42C54F /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 288C2F84E2205FEFFA7FC9232B435D24 /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DB9ED7BCBB49B0EC18E58778DE7BFF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		9A6ADC51D95996FA498D519056F686A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E95F5BC6DFA1832787349CAF4D551E7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		AE49A35A78CE00A83F26AF79DEE126FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		F17C57B93E4BA258041A3B507AF639E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		F7A846EC48CD3B2E7BBE318B7C4CD754 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64854F8D3188E09775644070644AEBB0 /* FBKVOController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		579BB89DD262C8C3991A81B13359AECB /* PBXContainerItemProxy */ = {
+		6E7B9BC3A74324BF272C145DBC65C7C4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -34,17 +42,26 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 15D5BF22183682B248BB595A8806B3E2;
+			remoteGlobalIDString = F7ABCEB5D8BBEF03934381F8AA4F8D91;
 			remoteInfo = "Pods-JSPopView_Example";
+		};
+		E9CBB9D3DCDCFBA74F89BDE839B8A7D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1BB2FCBCF83B5DDB315512A21BC40B8;
+			remoteInfo = KVOController;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A60C4A1F491338B0D96E19A55C559F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C049031B739CCD44473395BEFEB95D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1771E2FFC3DB242344FD0EFE3AFC4645 /* Pods_JSPopView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSPopView_Example.framework; path = "Pods-JSPopView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22813D0A5957AD4B32CBF31DD297522F /* Pods-JSPopView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSPopView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2410EFC23C71A7756F828542004C9C6C /* JSPopView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JSPopView.modulemap; sourceTree = "<group>"; };
+		244898F89E42D24F3F861506EED74F83 /* JSPopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSPopView.framework; path = JSPopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		283ED96333B871EF43C4A3FB408DF3A7 /* Pods-JSPopView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSPopView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		288C2F84E2205FEFFA7FC9232B435D24 /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
 		2A3FE4206BF3E5D8A6B3EB5EA2BF22C5 /* Pods-JSPopView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSPopView_Tests-dummy.m"; sourceTree = "<group>"; };
 		2E529CB5F33CC3AFCCF3A19863B44FEC /* Pods-JSPopView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSPopView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3194F733449A4803964EE9DF610DEF46 /* Pods-JSPopView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSPopView_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -53,8 +70,12 @@
 		55428691E9CA34696BFFDD703970AF47 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		60DDFE48AAD1350DE1D9B258686DF959 /* JSPopView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSPopView-prefix.pch"; sourceTree = "<group>"; };
+		615400AD860DF42E2826610B6F5D36FF /* KVOController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KVOController.framework; path = KVOController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61D0E4F5B096633D551BF2AF1C4F45DB /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
+		64854F8D3188E09775644070644AEBB0 /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
 		664C053838E4A5944D550C616D3AB42C /* Pods-JSPopView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSPopView_Example-umbrella.h"; sourceTree = "<group>"; };
 		69B95738F91E9112D7205F8B3BB9D502 /* Pods-JSPopView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSPopView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		6EEB6F5CCEA08CEF0C0DA0F32D912084 /* Pods_JSPopView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSPopView_Example.framework; path = "Pods-JSPopView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70200418942AE5F768D239BA34F97D6C /* Pods-JSPopView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JSPopView_Tests.modulemap"; sourceTree = "<group>"; };
 		722437C96E6C28632BF6A4D7675D41DF /* JSPopView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSPopView.h; path = JSPopView/JSPopView.h; sourceTree = "<group>"; };
 		73141947E013EA4A0A214111E42A3870 /* Pods-JSPopView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSPopView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -64,28 +85,34 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98CEED634876C8009E445A3D246AFE1D /* Pods-JSPopView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSPopView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9DC3214A0BCFBDC5AAAF155EC380588C /* JSPopAnimationTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSPopAnimationTool.h; path = JSPopView/JSPopAnimationTool.h; sourceTree = "<group>"; };
+		A35999C0B9C7B030C35E2311AC3CDAE3 /* Pods_JSPopView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSPopView_Tests.framework; path = "Pods-JSPopView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A746EC22F12503A81C5C8804C4530835 /* JSPopView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSPopView.m; path = JSPopView/JSPopView.m; sourceTree = "<group>"; };
 		AD5FCABD98841D0BEB95B25CC800A9CE /* Pods-JSPopView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JSPopView_Example-resources.sh"; sourceTree = "<group>"; };
 		BA25E91C51A520F0E7E2B7EC83E894A7 /* Pods-JSPopView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JSPopView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BD55E4BEC75CFE1051E2ECE93F622F1B /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
 		BF2970A26449537A9884A1B937C7AF94 /* JSPopView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = JSPopView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0BAFE5BB0996D68911A70F59B29FC90 /* JSPopView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JSPopView.framework; path = JSPopView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9DEFB0F0EE441F9EE90AA1000F9D1E /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBKVOController.h"; path = "FBKVOController/NSObject+FBKVOController.h"; sourceTree = "<group>"; };
+		CEBF8D2B507DD62FAD8363D2D7E570B7 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
 		D262016D36E67976657C9399A38DFA8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3EADCE2658222C4BF4B3DBB62499C68 /* Pods-JSPopView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JSPopView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		DD42F1B4EFE23704F1C533D45F6357A9 /* Pods_JSPopView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JSPopView_Tests.framework; path = "Pods-JSPopView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23A75CD7D65F6D9CD9E19B4B86B55C2 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
 		E58F9E3568B57967129DECDFF9B5C3AD /* JSPopAnimationTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSPopAnimationTool.m; path = JSPopView/JSPopAnimationTool.m; sourceTree = "<group>"; };
+		E5E2B44EAE9B73B6CCEA07C72DB07D59 /* KVOController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-umbrella.h"; sourceTree = "<group>"; };
+		E99977EE31371EA3CB69E1D28300E019 /* KVOController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.xcconfig; sourceTree = "<group>"; };
 		EB364E3364D3E2C63430C0B2AB9E1DB0 /* JSPopView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSPopView.xcconfig; sourceTree = "<group>"; };
 		EC575F20077EFF5484A894C8B5775096 /* Pods-JSPopView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JSPopView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F1F7F701206E5EDFFF29453F79584B1E /* Pods-JSPopView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JSPopView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F3600A9B785F0469541800AD9D5A1DBF /* Pods-JSPopView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JSPopView_Example-dummy.m"; sourceTree = "<group>"; };
 		F63FAB10EC705ABC89B5557F82BD9446 /* JSPopView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSPopView-dummy.m"; sourceTree = "<group>"; };
+		FC271362891CCA86F6EB97AB76B9D5F5 /* KVOController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVOController.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6FB7D8183521AF2BF2AAEF15D61FCB39 /* Frameworks */ = {
+		5DC0F2B042C498212CC27D9F3F40E482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E95F5BC6DFA1832787349CAF4D551E7B /* Foundation.framework in Frameworks */,
+				8DB9ED7BCBB49B0EC18E58778DE7BFF2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,19 +132,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C91FE81B1CEFA1B02D6EE2835CD9D799 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE49A35A78CE00A83F26AF79DEE126FE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0761179A0028596DB551D5B831470933 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C0BAFE5BB0996D68911A70F59B29FC90 /* JSPopView.framework */,
-				1771E2FFC3DB242344FD0EFE3AFC4645 /* Pods_JSPopView_Example.framework */,
-				DD42F1B4EFE23704F1C533D45F6357A9 /* Pods_JSPopView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		1330EA715C5DE78C0CAB1510067220AF /* Pods-JSPopView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +192,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				7360CF82CADA34F7A61C0506765EAEFA /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				0761179A0028596DB551D5B831470933 /* Products */,
+				D8AB05DD32FB26FEB036F4D320D7BB2B /* Pods */,
+				A832F233882C5C58D4D077AD255D830B /* Products */,
 				25909BF16A6307C794A8BC21D737DC7F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -180,6 +206,20 @@
 				83C09FA784931FA5656D8FE428C3EED8 /* README.md */,
 			);
 			name = Pod;
+			sourceTree = "<group>";
+		};
+		854EEC2803ABF781253E1D170B2B84DB /* KVOController */ = {
+			isa = PBXGroup;
+			children = (
+				E23A75CD7D65F6D9CD9E19B4B86B55C2 /* FBKVOController.h */,
+				64854F8D3188E09775644070644AEBB0 /* FBKVOController.m */,
+				288C2F84E2205FEFFA7FC9232B435D24 /* KVOController.h */,
+				CB9DEFB0F0EE441F9EE90AA1000F9D1E /* NSObject+FBKVOController.h */,
+				CEBF8D2B507DD62FAD8363D2D7E570B7 /* NSObject+FBKVOController.m */,
+				B1177D2A59F188A629D791AD0D41F9C9 /* Support Files */,
+			);
+			name = KVOController;
+			path = KVOController;
 			sourceTree = "<group>";
 		};
 		8C5B903A8D7A8B28C788ADFFDDE4A541 /* Pods-JSPopView_Tests */ = {
@@ -198,6 +238,31 @@
 			);
 			name = "Pods-JSPopView_Tests";
 			path = "Target Support Files/Pods-JSPopView_Tests";
+			sourceTree = "<group>";
+		};
+		A832F233882C5C58D4D077AD255D830B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				244898F89E42D24F3F861506EED74F83 /* JSPopView.framework */,
+				615400AD860DF42E2826610B6F5D36FF /* KVOController.framework */,
+				6EEB6F5CCEA08CEF0C0DA0F32D912084 /* Pods_JSPopView_Example.framework */,
+				A35999C0B9C7B030C35E2311AC3CDAE3 /* Pods_JSPopView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1177D2A59F188A629D791AD0D41F9C9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A60C4A1F491338B0D96E19A55C559F8 /* Info.plist */,
+				FC271362891CCA86F6EB97AB76B9D5F5 /* KVOController.modulemap */,
+				E99977EE31371EA3CB69E1D28300E019 /* KVOController.xcconfig */,
+				BD55E4BEC75CFE1051E2ECE93F622F1B /* KVOController-dummy.m */,
+				61D0E4F5B096633D551BF2AF1C4F45DB /* KVOController-prefix.pch */,
+				E5E2B44EAE9B73B6CCEA07C72DB07D59 /* KVOController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVOController";
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -220,6 +285,14 @@
 			);
 			name = JSPopView;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		D8AB05DD32FB26FEB036F4D320D7BB2B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				854EEC2803ABF781253E1D170B2B84DB /* KVOController */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		DA49DE235A8BF5D4E2E268E7827D6EE9 /* Support Files */ = {
@@ -257,35 +330,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7D2A5E09CF9DF2CD154A7A0FC8BD778 /* Headers */ = {
+		9FE56999F8C91F4D827AF6C9796FB6DE /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92A50F323DC215AFB6BFEC3D89F6A2CA /* Pods-JSPopView_Example-umbrella.h in Headers */,
+				262D5CD908F60B334DC828A61B13F7C3 /* Pods-JSPopView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF8C1B3C1E0BF2B07986011A84A6E26F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A61C910DACFCF8EB29281ED3DA0B81A /* FBKVOController.h in Headers */,
+				5EF4005FEC65BC997748AB46617ADD3C /* KVOController-umbrella.h in Headers */,
+				75DDA6C4B1C2D744D9CD65A5ED42C54F /* KVOController.h in Headers */,
+				094ED1211626E44658BCE20A562008C3 /* NSObject+FBKVOController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		15D5BF22183682B248BB595A8806B3E2 /* Pods-JSPopView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B410DAB862A506FFC928E5FAB1A706D5 /* Build configuration list for PBXNativeTarget "Pods-JSPopView_Example" */;
-			buildPhases = (
-				ABC88157F7582FFA4901802DD9D27146 /* Sources */,
-				6FB7D8183521AF2BF2AAEF15D61FCB39 /* Frameworks */,
-				C7D2A5E09CF9DF2CD154A7A0FC8BD778 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3500985956913BEF99295EBF1353277F /* PBXTargetDependency */,
-			);
-			name = "Pods-JSPopView_Example";
-			productName = "Pods-JSPopView_Example";
-			productReference = 1771E2FFC3DB242344FD0EFE3AFC4645 /* Pods_JSPopView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		188C5B4175340196D8E8B4E5F719BF35 /* JSPopView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 78842D7883124E7061425187DA773570 /* Build configuration list for PBXNativeTarget "JSPopView" */;
@@ -300,7 +366,7 @@
 			);
 			name = JSPopView;
 			productName = JSPopView;
-			productReference = C0BAFE5BB0996D68911A70F59B29FC90 /* JSPopView.framework */;
+			productReference = 244898F89E42D24F3F861506EED74F83 /* JSPopView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		65DE2BEBA03AD4F95BA66F45DA2D1822 /* Pods-JSPopView_Tests */ = {
@@ -318,7 +384,43 @@
 			);
 			name = "Pods-JSPopView_Tests";
 			productName = "Pods-JSPopView_Tests";
-			productReference = DD42F1B4EFE23704F1C533D45F6357A9 /* Pods_JSPopView_Tests.framework */;
+			productReference = A35999C0B9C7B030C35E2311AC3CDAE3 /* Pods_JSPopView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C22E59EB39161F1F43C742A0638E1306 /* Build configuration list for PBXNativeTarget "KVOController" */;
+			buildPhases = (
+				EDDCB54C5116A800B6769D0BFC23824A /* Sources */,
+				5DC0F2B042C498212CC27D9F3F40E482 /* Frameworks */,
+				EF8C1B3C1E0BF2B07986011A84A6E26F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOController;
+			productName = KVOController;
+			productReference = 615400AD860DF42E2826610B6F5D36FF /* KVOController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7ABCEB5D8BBEF03934381F8AA4F8D91 /* Pods-JSPopView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CCB744AE5D6D4D7476BB2C9B298BEA /* Build configuration list for PBXNativeTarget "Pods-JSPopView_Example" */;
+			buildPhases = (
+				B41097A0571EB1666F057A933732BCB5 /* Sources */,
+				C91FE81B1CEFA1B02D6EE2835CD9D799 /* Frameworks */,
+				9FE56999F8C91F4D827AF6C9796FB6DE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96900015659E138CA129DD48B0FE16AE /* PBXTargetDependency */,
+				32BC6F00C1722D0D6CEC4C8C1D10B5DD /* PBXTargetDependency */,
+			);
+			name = "Pods-JSPopView_Example";
+			productName = "Pods-JSPopView_Example";
+			productReference = 6EEB6F5CCEA08CEF0C0DA0F32D912084 /* Pods_JSPopView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -338,12 +440,13 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0761179A0028596DB551D5B831470933 /* Products */;
+			productRefGroup = A832F233882C5C58D4D077AD255D830B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				188C5B4175340196D8E8B4E5F719BF35 /* JSPopView */,
-				15D5BF22183682B248BB595A8806B3E2 /* Pods-JSPopView_Example */,
+				F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */,
+				F7ABCEB5D8BBEF03934381F8AA4F8D91 /* Pods-JSPopView_Example */,
 				65DE2BEBA03AD4F95BA66F45DA2D1822 /* Pods-JSPopView_Tests */,
 			);
 		};
@@ -368,65 +471,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABC88157F7582FFA4901802DD9D27146 /* Sources */ = {
+		B41097A0571EB1666F057A933732BCB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				039DC1ADE4FCF9BC27ED0BC85D419931 /* Pods-JSPopView_Example-dummy.m in Sources */,
+				2B63F44121AE4097D059D66C28A61B24 /* Pods-JSPopView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDDCB54C5116A800B6769D0BFC23824A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7A846EC48CD3B2E7BBE318B7C4CD754 /* FBKVOController.m in Sources */,
+				16A56F7A6E2AFE504DEC2C768660B409 /* KVOController-dummy.m in Sources */,
+				5E3E20ED69923AF65ED92CE43DC97BFB /* NSObject+FBKVOController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3500985956913BEF99295EBF1353277F /* PBXTargetDependency */ = {
+		32BC6F00C1722D0D6CEC4C8C1D10B5DD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = JSPopView;
-			target = 188C5B4175340196D8E8B4E5F719BF35 /* JSPopView */;
-			targetProxy = 579BB89DD262C8C3991A81B13359AECB /* PBXContainerItemProxy */;
+			name = KVOController;
+			target = F1BB2FCBCF83B5DDB315512A21BC40B8 /* KVOController */;
+			targetProxy = E9CBB9D3DCDCFBA74F89BDE839B8A7D6 /* PBXContainerItemProxy */;
 		};
 		5F06F0C71207BA294A10124CC8E27B66 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JSPopView_Example";
-			target = 15D5BF22183682B248BB595A8806B3E2 /* Pods-JSPopView_Example */;
+			target = F7ABCEB5D8BBEF03934381F8AA4F8D91 /* Pods-JSPopView_Example */;
 			targetProxy = B2263429B4BA3290048B8F9C75319129 /* PBXContainerItemProxy */;
+		};
+		96900015659E138CA129DD48B0FE16AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSPopView;
+			target = 188C5B4175340196D8E8B4E5F719BF35 /* JSPopView */;
+			targetProxy = 6E7B9BC3A74324BF272C145DBC65C7C4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		046BD95862A6BEAFAF4321D2280C09B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC575F20077EFF5484A894C8B5775096 /* Pods-JSPopView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JSPopView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JSPopView_Example/Pods-JSPopView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -520,9 +606,9 @@
 			};
 			name = Debug;
 		};
-		4D800BEB26160082FD5E23D1651FB9DD /* Release */ = {
+		46EAA64226134E2DB49C0EA28BCB74AB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 22813D0A5957AD4B32CBF31DD297522F /* Pods-JSPopView_Example.release.xcconfig */;
+			baseConfigurationReference = EC575F20077EFF5484A894C8B5775096 /* Pods-JSPopView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -548,11 +634,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		795D7CC7F0726E1451CDABE6C5588485 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -618,6 +703,37 @@
 			};
 			name = Release;
 		};
+		B7BE74AD56BCE61FDAED9D2CAE8B166F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99977EE31371EA3CB69E1D28300E019 /* KVOController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVOController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
+				PRODUCT_MODULE_NAME = KVOController;
+				PRODUCT_NAME = KVOController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		E796FCB0FE2F379E408E9D7BE50C0419 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E529CB5F33CC3AFCCF3A19863B44FEC /* Pods-JSPopView_Tests.release.xcconfig */;
@@ -651,6 +767,70 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		EFE6BAE430EAD182E02D9E498DFB93DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22813D0A5957AD4B32CBF31DD297522F /* Pods-JSPopView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JSPopView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JSPopView_Example/Pods-JSPopView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F39F04F0987219A748CC824FC571002C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99977EE31371EA3CB69E1D28300E019 /* KVOController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVOController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVOController/KVOController.modulemap";
+				PRODUCT_MODULE_NAME = KVOController;
+				PRODUCT_NAME = KVOController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -722,6 +902,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		46CCB744AE5D6D4D7476BB2C9B298BEA /* Build configuration list for PBXNativeTarget "Pods-JSPopView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EAA64226134E2DB49C0EA28BCB74AB /* Debug */,
+				EFE6BAE430EAD182E02D9E498DFB93DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		78842D7883124E7061425187DA773570 /* Build configuration list for PBXNativeTarget "JSPopView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -731,11 +920,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B410DAB862A506FFC928E5FAB1A706D5 /* Build configuration list for PBXNativeTarget "Pods-JSPopView_Example" */ = {
+		C22E59EB39161F1F43C742A0638E1306 /* Build configuration list for PBXNativeTarget "KVOController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				046BD95862A6BEAFAF4321D2280C09B4 /* Debug */,
-				4D800BEB26160082FD5E23D1651FB9DD /* Release */,
+				F39F04F0987219A748CC824FC571002C /* Debug */,
+				B7BE74AD56BCE61FDAED9D2CAE8B166F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
