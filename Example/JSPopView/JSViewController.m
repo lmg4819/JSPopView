@@ -8,6 +8,7 @@
 
 #import "JSViewController.h"
 #import <JSPopView/JSPopView.h>
+#import "JSSecondViewController.h"
 
 
 @interface JSViewController ()
@@ -43,7 +44,12 @@
     label.numberOfLines = 0;
     label.backgroundColor = [UIColor blackColor];
     label.textColor = [UIColor whiteColor];
-    [JSPopView popUpContentView:label direct:PopViewDirection_PopUpTop onView:sender offset:-60 triangleView:nil animation:YES];
+  JSPopView *popView =  [JSPopView popUpContentView:label direct:PopViewDirection_PopUpTop onView:sender offset:-60 triangleView:nil animation:YES];
+    __weak typeof(self) weakSelf = self;
+    popView.didRemovedFromeSuperView = ^{
+        JSSecondViewController *secondVC = [[JSSecondViewController alloc]init];
+        [weakSelf presentViewController:secondVC animated:YES completion:nil];
+    };
 }
 
 - (void)didReceiveMemoryWarning

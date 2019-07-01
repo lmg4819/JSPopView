@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		586BB99722CA029000CA166F /* JSDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BB99622CA029000CA166F /* JSDetailViewController.m */; };
+		586BB99A22CA035E00CA166F /* JSSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586BB99922CA035E00CA166F /* JSSecondViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -44,6 +45,8 @@
 		5075D5EF24C143D40E249991 /* Pods_JSPopView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JSPopView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		586BB99522CA029000CA166F /* JSDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSDetailViewController.h; sourceTree = "<group>"; };
 		586BB99622CA029000CA166F /* JSDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSDetailViewController.m; sourceTree = "<group>"; };
+		586BB99822CA035E00CA166F /* JSSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSSecondViewController.h; sourceTree = "<group>"; };
+		586BB99922CA035E00CA166F /* JSSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSSecondViewController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JSPopView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSPopView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -145,6 +148,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				586BB99822CA035E00CA166F /* JSSecondViewController.h */,
+				586BB99922CA035E00CA166F /* JSSecondViewController.m */,
 			);
 			name = "Example for JSPopView";
 			path = JSPopView;
@@ -365,6 +370,7 @@
 				6003F5A7195388D20070C39A /* JSViewController.m in Sources */,
 				586BB99722CA029000CA166F /* JSDetailViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				586BB99A22CA035E00CA166F /* JSSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
