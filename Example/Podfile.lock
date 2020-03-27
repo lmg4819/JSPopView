@@ -1,23 +1,31 @@
 PODS:
+  - FSCalendar (2.8.1)
   - JSPopView (0.1.0)
   - KVOController (1.2.0)
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
+  - FSCalendar (= 2.8.1)
   - JSPopView (from `../`)
   - KVOController (~> 1.2.0)
+  - Masonry (= 1.1.0)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
+    - FSCalendar
     - KVOController
+    - Masonry
 
 EXTERNAL SOURCES:
   JSPopView:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JSPopView: cfba73ce55ec0b4f6a25b404fb7d47b997fd4d02
+  FSCalendar: 5245140456fcbcac5824c203b98bd8068bdfee1a
+  JSPopView: 2e1fc13de31cb400748d8a2bc2e8517a85825665
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 87f2741872c7e46cae3de7e056b7330924b5d6b2
+PODFILE CHECKSUM: ea7a7215d8def6ac47d63e76742de72ad229d4e2
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.8.4
